@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="scripts" href="scripts.js">
+    <title>Labs reports</title>
+</head>
+<body>
+    <!--footer-->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="report-title">
+                <h1>
+                    ЗВІТИ З ЛАБОРАТОРАТОРНИХ РОБІТ З ДИСЦИПЛІНИ "WEB-ОРІЄНТОВАНІ ТЕХНОЛОГІЇ. ОСНОВИ FRONTEND ТА BACKEND РОЗРОБОК"
+                </h1>
+                <h2>
+                    Студент групи ІК-13 Савченко Володимир Євгенійович
+                </h2>
+            </div>
+            <img src="imgs/profile.jpg"class="prof-icon" alt="">
+        </div>
+    </footer>
+    <!--main-->
+    <!--labs-table-->
+    <section class="lab-wrapper">
+        <div class="lab-block">
+            <p>Лаб. робота 1</p>
+        </div>
+        <div class="lab-block">
+            <p>Лаб. робота 2</p>
+        </div>
+        <div class="lab-block">
+            <p>Лаб. робота 3</p>
+        </div>
+        <div class="lab-block">
+            <p>Лаб. робота 4</p>
+        </div>
+        <div class="lab-block">
+            <p>Лаб. робота 5</p>
+        </div>
+        <div class="lab-block">
+            <p>Лаб. робота 6</p>
+        </div>
+        <div class="lab-block">
+            <p>Лаб. робота 7</p>
+        </div>
+        <div class="lab-block">
+            <p>Лаб. робота 8</p>
+        </div>
+        <div class="lab-block">
+            <p>Лаб. робота 9</p>
+        </div>
+    </section>
+    <!--dynamic part-->
+    <section class="main-wrapper">
+        <!--steps-->        
+        <div class="step-wrapper">
+            <!-- Опис предметного середовища -->
+            <div class="step-block" onclick="labDescription()">
+                <h3>Опис предметного середовища</h3>
+            </div>
+            <!-- Тема, Мета, Місце розташування лабораторної роботи №1 -->
+            <div class="step-block" onclick="labMeta()">
+                <h3>Тема, Мета, Місце розташування лаби №1</h3>
+            </div>
+            <!-- Структура документа -->
+            <div class="step-block" onclick="documentStructure()">
+                <h3>Структура документа</h3>                
+            </div>
+            <!-- Висновки -->
+            <div class="step-block" onclick="conclusions()">
+                <h3>Висновки</h3>
+            </div>
+        </div>
+        <!--content-->
+        <div id="content" class="content-wrapper">
+            <p>
+                У лабораторній роботі ми працювали над HTML-документами задля створення веб-сторінок для резюме та "Магазин іграшок". 
+                Також розглядали інструмент Figma для дизайну нашого майбутнього сайту.
+            </p>
+        </div>
+    </section>
+</body>
+</html>

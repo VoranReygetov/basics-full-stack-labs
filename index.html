@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="scripts" href="scripts.js">
+    <script src="scripts.js"></script>
     <title>Labs reports</title>
 </head>
 <body>
@@ -58,19 +58,21 @@
         <!--steps-->        
         <div class="step-wrapper">
             <!-- Опис предметного середовища -->
-            <div class="step-block" onclick="labDescription()">
+            <div class="step-block" onclick="labDescription_1()">
                 <h3>Опис предметного середовища</h3>
             </div>
             <!-- Тема, Мета, Місце розташування лабораторної роботи №1 -->
-            <div class="step-block" onclick="labMeta()">
+            <div class="step-block" onclick="labMeta_1()">
                 <h3>Тема, Мета, Місце розташування лаби №1</h3>
             </div>
             <!-- Структура документа -->
-            <div class="step-block" onclick="documentStructure()">
+            <div class="step-block" onclick="documentStructure_1()">
                 <h3>Структура документа</h3>                
             </div>
+            <div id="structure">                
+            </div>
             <!-- Висновки -->
-            <div class="step-block" onclick="conclusions()">
+            <div class="step-block" onclick="conclusions_1()">
                 <h3>Висновки</h3>
             </div>
         </div>
@@ -79,7 +81,11 @@
             <p>
                 У лабораторній роботі ми працювали над HTML-документами задля створення веб-сторінок для резюме та "Магазин іграшок". 
                 Також розглядали інструмент Figma для дизайну нашого майбутнього сайту.
-            </p>
+            </p> 
+            <p>
+                У ході лабораторної роботи ми навчилися створювати та клонувати репозиторії з Github, використовувати застосунок Figma для створення макетів, вивчили семантичні теги,
+                на практиці застосували різні теги, такі як table, a, ul, ol.    
+            </p> 
         </div>
     </section>
 </body>

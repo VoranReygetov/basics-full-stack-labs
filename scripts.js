@@ -211,6 +211,9 @@ function labDescription_2(){
             <b>Місце розташування сайту:</b> <a href="https://github.com/VoranReygetov/ToyBox-WEB-2">ось</a>.
         </li>
         <li>
+        <b>Місце розташування резюме:</b> <a href="https://github.com/VoranReygetov/my-resume-web-2">ось</a>.
+    </li>
+        <li>
             <b>Місце розташування звіту:</b> <a href="https://github.com/VoranReygetov/basics-full-stack-labs">ось</a>.
         </li>
     </ol>

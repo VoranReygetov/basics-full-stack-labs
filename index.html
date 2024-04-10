@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="scripts.js"></script>
     <title>Labs reports</title>
+    <style>
+        .conn-styles-types{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
     <!--footer-->
@@ -27,10 +38,10 @@
     <!--main-->
     <!--labs-table-->
     <section class="lab-wrapper">
-        <div class="lab-block">
+        <div class="lab-block" onclick="change_lab_work_1()">
             <p>Лаб. робота 1</p>
         </div>
-        <div class="lab-block">
+        <div class="lab-block" onclick="change_lab_work_2()">
             <p>Лаб. робота 2</p>
         </div>
         <div class="lab-block">
@@ -58,8 +69,8 @@
     <!--dynamic part-->
     <section class="main-wrapper">
         <!--steps-->        
-        <div class="step-wrapper">
-            <!-- Опис предметного середовища -->
+        <div id="steps" class="step-wrapper">
+        <!-- Опис предметного середовища -->
             <div class="step-block" onclick="labDescription_1()">
                 <h3>Опис предметного середовища</h3>
             </div>
@@ -96,7 +107,7 @@
                     <li>Переглядати замовлення</li>
                 </ul>
             </p>
-        </div>        
+        </div>
     </section>
 </body>
 </html>

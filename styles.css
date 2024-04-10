@@ -1,3 +1,6 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
 .footer-wrapper {
     background-color: #f0f0f0; 
     padding: 20px; 
@@ -6,7 +9,10 @@
     justify-content: center;
     position: relative; /* Для правильного позиціонування .prof-icon */
 }
-
+h1, h2, h3, p, li, ul, ol, table{
+    margin: 0;
+    padding: 0;
+}
 .text-container {
     text-align: center;
 }
@@ -47,30 +53,84 @@
 .main-wrapper{
     display: flex;
     margin-top: 10px;
+    gap: 4px;
 }
 .lab-block {
-    padding: 5px;
+    padding: 12px;
     border-radius: 10px;
     border: 1px solid black;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all .15s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.lab-block:hover{
+    background-color: rgb(194, 194, 194);
 }
 .step-wrapper{
-    width: 20%;
     flex: 1;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 2px;
 }
 .step-block {
-    margin: 2px;
-    padding: 4px;
+    padding: 12px;
     border-radius: 25px;
     border: 1px solid black;
     text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .15s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.step-block:hover{
+    background-color: rgb(194, 194, 194);
+}
+.step-block-smaller {
+    padding: 8px;
+    border-radius: 25px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+}
+.step-block-smaller:hover{
+    background-color: rgb(194, 194, 194);
+}
+.step-block-list{
+    list-style: none;
 }
 .content-wrapper{
     flex: 5;
     border-radius: 25px;
-    padding: 4px;
+    padding: 1em;
     border: 1px solid black;
     text-align: left;
     font-size: 18px;
+    align-self: flex-start;
+    min-height: 25em;
+    list-style-position: inside;
+}
+#structure{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 80%;
+    align-self: end;
+}
+.main-list-margin li{
+    margin-bottom: 0.25em;
+}
+.conn-styles-types-block{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conn-styles-types-block-img{
+    height: 200px;
+    max-width: 100%;
+}
+.css-showcase-cont{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
 }

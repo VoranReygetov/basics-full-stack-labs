@@ -9,9 +9,10 @@ body{
     justify-content: center;
     position: relative; /* Для правильного позиціонування .prof-icon */
 }
-h1, h2, h3, p, li, ul, ol, table{
+h1, h2, h3, h4, p, li, ul, ol, table, body{
     margin: 0;
     padding: 0;
+    border: 0;
 }
 .text-container {
     text-align: center;
@@ -37,8 +38,8 @@ h1, h2, h3, p, li, ul, ol, table{
     width: 100px; 
     height: 100px;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 16px;
+    right: 16px;
     border-radius: 50%;
 }
 
@@ -52,7 +53,7 @@ h1, h2, h3, p, li, ul, ol, table{
 }
 .main-wrapper{
     display: flex;
-    margin-top: 10px;
+    margin: 12px;
     gap: 4px;
 }
 .lab-block {
@@ -107,8 +108,11 @@ h1, h2, h3, p, li, ul, ol, table{
     align-self: flex-start;
     min-height: 25em;
     list-style-position: inside;
+    width: 100%;     
+    max-height: 30em;   
+    overflow-y: auto; 
 }
-#structure{
+.structure{
     display: flex;
     flex-direction: column;
     gap: 2px;
@@ -133,4 +137,14 @@ h1, h2, h3, p, li, ul, ol, table{
     grid-template-rows: auto;
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
+}
+
+.img-medium-size{
+    max-height: 360px;
+    max-width: 360px;
+}
+
+.img-big-size{
+    max-height: 600px;
+    max-width: 600px;
 }

@@ -139,7 +139,7 @@ function change_lab_work_1(){
         <div class="step-block" onclick="documentStructure_1()">
             <h3>Структура документа</h3>                
         </div>
-        <div id="structure">                
+        <div id="structure" class="structure">                
         </div>
         <!-- Висновки -->
         <div class="step-block" onclick="conclusions_1()">
@@ -161,7 +161,7 @@ function change_lab_work_2(){
         <div class="step-block" onclick="labSelectors_2()">
             <h3>Селектори</h3>                
         </div>
-        <div id="structure">
+        <div id="structure" class="structure">
         </div>
         <div class="step-block" onclick="labAdvanced_2()">
             <h3>CSS: Шрифти Текст Таблиці Фон Контур Списки СSS Просунутий</h3>
@@ -212,7 +212,7 @@ function labDescription_2(){
         </li>
         <li>
         <b>Місце розташування резюме:</b> <a href="https://github.com/VoranReygetov/my-resume-web-2">ось</a>.
-    </li>
+        </li>
         <li>
             <b>Місце розташування звіту:</b> <a href="https://github.com/VoranReygetov/basics-full-stack-labs">ось</a>.
         </li>

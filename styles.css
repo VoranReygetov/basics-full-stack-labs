@@ -148,3 +148,28 @@ h1, h2, h3, h4, p, li, ul, ol, table, body{
     max-height: 600px;
     max-width: 600px;
 }
+
+.flexbox-with-header{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 8px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flexbox-with-header div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.flexbox-with-header img{
+    display: block;
+    /* margin-bottom: auto; */
+}
+
+.flex-column-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

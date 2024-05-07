@@ -1,6 +1,3 @@
-let tableShown_1 = false;
-let tableShown_2 = false;
-
 function change_lab_work_3(){
     let contentDiv = 
     `

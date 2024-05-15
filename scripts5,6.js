@@ -199,6 +199,7 @@ function lab5_Task_2_2(){
             <img src="./imgs/lab5/3/3-11.png" class="img-big-size" alt="">
             <img src="./imgs/lab5/3/3-12.png" class="img-big-size" alt="">
         </div>    
+    </div>    
     `
     ;
     document.getElementById("content").innerHTML = contentDiv;
@@ -247,6 +248,156 @@ function lab5_Conclusions(){
                 </li>
             </ul>
         </ul>
+    </div>
+    `
+    ;
+    document.getElementById("content").innerHTML = contentDiv;
+}
+
+function change_lab_work_6() {
+    let contentDiv = 
+    `
+        <!-- Тема, мета -->
+        <div class="step-block" onclick="lab6_Meta()">
+            <h3>Тема, Мета, Місце розташування завдання, звіту</h3>
+        </div>
+        <!-- Завдання №2,4 -->
+        <div class="step-block" onclick="lab6_Task_1()">
+            <h3>Завдання №2,4,6</h3>
+        </div>
+        <div id="structure-1" class="structure"></div>
+        <!-- Завдання №6,7,8 -->
+        <div class="step-block" onclick="lab6_Task_2()">
+            <h3>Завдання №6,7,8</h3>                
+        </div>
+        <div id="structure-2" class="structure"></div>
+        </div>
+        <!-- Завдання №9,10 -->
+        <div class="step-block" onclick="lab6_Task_3()">
+            <h3>Завдання №9,10</h3>
+        </div>
+        </div>
+        <!-- Висновки -->
+        <div class="step-block" onclick="lab6_Conclusions()">
+            <h3>Висновки</h3>
+        </div>
+    `;
+    document.getElementById("steps").innerHTML = contentDiv;
+    lab6_Meta();
+}
+
+function lab6_Meta() {
+    // Отримуємо доступ до елемента div за допомогою його id
+    var contentDiv = document.getElementById("content");
+
+    // Змінюємо текст у елементі div
+    contentDiv.innerHTML = `
+        <ol>
+            <li>
+                <b>Тема</b>: КЛАСИ. ОБ'ЄКТНА МОДЕЛЬ ДОКУМЕНТА (DOM). ПОДІЇ. ОБ'ЄКТ ПОДІЇ. ДЕЛЕГУВАННЯ ПОДІЙ. THROTTLE. МОДУЛЬНОСТЬ КОДУ         
+            </li>
+            <li>
+            <b>Мета</b>: придбати практичні навички роботи з об'єктами. Методи об'єкта.. Callback. Стрілочні функції. Стрілочні функції як колбеки. Реалізація програм засовами мови JAVASCRIPT            
+            </li>
+            <li>
+            <b>Місце розташування</b>:
+                <ul>
+                    <li>
+                    <b>Завдання</b>: <a href='https://github.com/VoranReygetov/ToyBox-WEB-6'>Ось</a>,
+                    <a href='https://voranreygetov.github.io/ToyBox-WEB-6/'>Жива сторінка</a>
+                    </li>
+                    <li>
+                    <b>Звіт</b>: <a href='https://github.com/VoranReygetov/basics-full-stack-labs'>Ось</a>,
+                    <a href='https://voranreygetov.github.io/basics-full-stack-labs/'>Жива сторінка</a>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    `;
+}
+function lab6_Task_1(){
+    let contentDiv = 
+    `
+    <p>Завдання 2,4</p>
+    <div>
+        <div class="flex-column-container">
+            «SWAP ME» міняє вміст інпутів:
+            <img src="./imgs/lab6/1/6-1.png" class="img-big-size" alt="">
+            <img src="./imgs/lab6/1/6-3.png" class="img-big-size" alt="">
+            <img src="./imgs/lab6/1/6-5.png" class="img-big-size" alt="">
+        </div>
+        
+        <div class="flex-column-container">
+            "Зменшити" робить квадрат менше на 15 пікселів, "Збільшити" - збільшить.
+            <img src="./imgs/lab6/1/6-2.png" class="img-big-size" alt="">
+            <img src="./imgs/lab6/1/6-4.png" class="img-big-size" alt="">
+            <img src="./imgs/lab6/1/6-6.png" class="img-big-size" alt="">
+        </div>
+    </div>  
+    `
+    ;
+    document.getElementById("content").innerHTML = contentDiv;
+}
+function lab6_Task_2(){
+    let contentDiv = 
+    `
+    <p>Завдання 6,7,8</p>
+    <div>
+        <div class="flex-column-container">
+            "Подвоїти", збільшити значення у кожному елементі списку у 2 рази, "Степінь" - в другу.
+            <img src="./imgs/lab6/2/6-1.png" class="img-big-size" alt="">
+            <img src="./imgs/lab6/2/6-4.png" class="img-big-size" alt="">
+            <img src="./imgs/lab6/2/6-7.png" class="img-big-size" alt="">
+        </div>
+        
+        <div class="flex-column-container">
+            Порахує і виведе в консоль кількість категорій в ul#categories, кількість елементів в категорії
+            <img src="./imgs/lab6/2/6-2.png" class="img-big-size" alt="">
+            <img src="./imgs/lab6/2/6-5.png" class="img-big-size" alt="">
+            <img src="./imgs/lab6/2/6-8.png" class="img-big-size" alt="">
+        </div>
+
+        <div class="flex-column-container">
+            Відправлення форми, перевіряє, чи всі поля заповнені. Якщо не всі, виводиться повідомлення про заповнення всіх полів. Якщо всі поля заповнені, значення полів збираються в об'єкт, виводяться в консоль і поля форми очищаються.
+            <img src="./imgs/lab6/2/6-3.png" class="img-big-size" alt="">
+            <img src="./imgs/lab6/2/6-6.png" class="img-big-size" alt="">
+            <img src="./imgs/lab6/2/6-9.png" class="img-big-size" alt="">   
+        </div>
+    </div>
+    `
+    ;
+    document.getElementById("content").innerHTML = contentDiv;
+}
+
+function lab6_Task_3(){
+    let contentDiv = 
+    `
+    <p>Завдання 9,10</p>
+    <div>
+        <div class="flex-column-container">
+            Скрипт, який змінює колір фону елемента &lt;body&gt; через інлайн-стиль по кліку на button.change-color і задає це значення кольору текстовим вмістом для span.color.
+            <img src="./imgs/lab6/3/6-1.png" class="img-big-size" alt="">
+            <img src="./imgs/lab6/3/6-3.png" class="img-big-size" alt="">
+            <img src="./imgs/lab6/3/6-5.png" class="img-big-size" alt="">
+        </div>
+        
+        <div class="flex-column-container">
+            Скрипт, що дозволяє користувачеві створювати та очищувати колекцію елементів. Користувач вводить у поле кількість елементів, які хоче створити, та може створити їх, натиснувши кнопку "Create", а також очистити колекцію кнопкою "Destroy".
+            <img src="./imgs/lab6/3/6-2.png" class="img-big-size" alt="">
+            <img src="./imgs/lab6/3/6-4.png" class="img-big-size" alt="">
+            <img src="./imgs/lab6/3/6-6.png" class="img-big-size" alt="">
+        </div>
+    </div>
+    `
+    ;
+    document.getElementById("content").innerHTML = contentDiv;
+}
+
+function lab6_Conclusions(){
+    let contentDiv = 
+    `
+    <div>
+        У ході лабораторної роботи працював з об'єктами, методами об'єкта, колбеками, стрілочними функціями та модульністю коду в мові JavaScript. 
     </div>
     `
     ;

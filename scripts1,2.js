@@ -40,13 +40,16 @@ function labMeta_1() {
                 Місце розташування:
                 <ul>
                     <li>
-                        Резюме: <a href='https://voranreygetov.github.io/my-resume-web/'>тут</a>
+                        Резюме: <a href='https://github.com/VoranReygetov/my-resume-web'>Ось</a>,
+                        <a href='https://voranreygetov.github.io/my-resume-web/'>Жива сторінка</a>
                     </li>
                     <li>
-                        Магазин іграшок: <a href='https://voranreygetov.github.io/ToyBox-WEB/'>тут</a>
+                        Магазин іграшок: <a href='https://github.com/VoranReygetov/ToyBox-WEB-1'>Ось</a>,
+                        <a href='https://voranreygetov.github.io/ToyBox-WEB-1/'>Жива сторінка</a>
                     </li>
                     <li>
-                        Звіт: <a href='https://voranreygetov.github.io/basics-full-stack-labs/'>тут</a>
+                        Звіт: <a href='https://github.com/VoranReygetov/basics-full-stack-labs'>Ось</a>,
+                        <a href='https://voranreygetov.github.io/basics-full-stack-labs/'>Жива сторінка</a>
                     </li>
                 </ul>
             </li>
@@ -208,13 +211,16 @@ function labDescription_2(){
             елементів.
         </li>
         <li>
-            <b>Місце розташування сайту:</b> <a href="https://github.com/VoranReygetov/ToyBox-WEB-2">ось</a>.
+            <b>Місце розташування сайту:</b> <a href='https://github.com/VoranReygetov/ToyBox-WEB-2'>Ось</a>,
+            <a href='https://voranreygetov.github.io/ToyBox-WEB-2/'>Жива сторінка</a>
         </li>
         <li>
-        <b>Місце розташування резюме:</b> <a href="https://github.com/VoranReygetov/my-resume-web-2">ось</a>.
+        <b>Місце розташування резюме:</b> <a href='https://github.com/VoranReygetov/my-resume-web-2'>Ось</a>,
+        <a href='https://voranreygetov.github.io/my-resume-web-2/'>Жива сторінка</a>
         </li>
         <li>
-            <b>Місце розташування звіту:</b> <a href="https://github.com/VoranReygetov/basics-full-stack-labs">ось</a>.
+            <b>Місце розташування звіту:</b> <a href='https://github.com/VoranReygetov/basics-full-stack-labs'>Ось</a>,
+            <a href='https://voranreygetov.github.io/basics-full-stack-labs/'>Жива сторінка</a>
         </li>
     </ol>
     `

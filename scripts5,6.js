@@ -49,10 +49,12 @@ function lab5_Meta() {
             <b>Місце розташування</b>:
                 <ul>
                     <li>
-                    <b>Сайту</b>: <a href='https://voranreygetov.github.io/ToyBox-WEB-4/'>Жива сторінка</a>
+                    <b>Сайту</b>: <a href='https://github.com/VoranReygetov/ToyBox-WEB-4'>Ось</a>,
+                    <a href='https://voranreygetov.github.io/ToyBox-WEB-4/'>Жива сторінка</a>
                     </li>
                     <li>
-                    <b>Звіт</b>: <a href='https://voranreygetov.github.io/basics-full-stack-labs/'>Жива сторінка</a>
+                    <b>Звіт</b>: <a href='https://github.com/VoranReygetov/basics-full-stack-labs'>Ось</a>,
+                    <a href='https://voranreygetov.github.io/basics-full-stack-labs/'>Жива сторінка</a>
                     </li>
                 </ul>
             </li>

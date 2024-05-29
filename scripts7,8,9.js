@@ -129,9 +129,9 @@ function lab7_Task_1_2(){
 function lab7_Task_2() {
     // Отримуємо доступ до елемента div за допомогою його id
     let contentDiv = document.getElementById("structure-2");
-    if (tableShown_1) {
+    if (tableShown_2) {
         contentDiv.innerHTML = '';
-        tableShown_1 = false;
+        tableShown_2 = false;
     }
     else{
         // Змінюємо текст у елементі div
@@ -139,7 +139,7 @@ function lab7_Task_2() {
             <div class="step-block-smaller" onclick="lab7_Task_2_1()">HTML, CSS, JS</div>
             <div class="step-block-smaller" onclick="lab7_Task_2_2()">Демонстація роботи</div>
         `;
-        tableShown_1 = true;
+        tableShown_2 = true;
     }
 }
 

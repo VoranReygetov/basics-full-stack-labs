@@ -197,3 +197,232 @@ function lab7_Conclusions(){
     ;
     document.getElementById("content").innerHTML = contentDiv;
 }
+
+function change_lab_work_8() {
+    let contentDiv = 
+    `
+        <!-- Тема, мета -->
+        <div class="step-block" onclick="lab8_Meta()">
+            <h3>Сертифікат, оцінка</h3>
+        </div>
+        <!-- Завдання №1 -->
+        <div class="step-block" onclick="lab8_Task_1()">
+            <h3>Тести</h3>
+        </div>
+        </div>
+        <!-- Висновки -->
+        <div class="step-block" onclick="lab8_Conclusions()">
+            <h3>Висновки</h3>
+        </div>
+    `;
+    document.getElementById("steps").innerHTML = contentDiv;
+    lab8_Meta();
+}
+
+function lab8_Meta() {
+    // Отримуємо доступ до елемента div за допомогою його id
+    var contentDiv = document.getElementById("content");
+
+    // Змінюємо текст у елементі div
+    contentDiv.innerHTML = `
+    <p>Сертифікат та оцінка</p>
+    <div>
+        <div class="flex-column-container">
+            <img src="./imgs/lab8/1/1-1.png" class="img-big-size" alt="">
+            Сертифікат
+            <img src="./imgs/lab8/1/1-2.png" class="img-big-size" alt="">
+            Оцінка
+        </div>
+    </div>
+    `;
+}
+
+function generate1ImageHTML(number) {
+    const imagePath = `./imgs/lab8/2/1/www.coursera.org_learn_react-basics_quiz_8NOQO_self-review-creating-and-importing-components_view-attempt (${number}).png`;
+    const imageHTML = `<img src="${imagePath}" class="img-big-size" alt="Image ${number}">`;
+    return imageHTML;
+  }
+  function generate2ImageHTML(number) {
+    const imagePath = `./imgs/lab8/2/2/www.coursera.org_learn_react-basics_quiz_8NOQO_self-review-creating-and-importing-components_view-attempt (${number}).png`;
+    const imageHTML = `<img src="${imagePath}" class="img-big-size" alt="Image ${number}">`;
+    return imageHTML;
+  }
+  function generate2_1ImageHTML(number) {
+    const imagePath = `D:\Programs\WEB\basics-full-stack-labs\imgs\lab8/2/2\www.coursera.org_learn_react-basics_quiz_r83Ux_knowledge-check-data-flow_view-attempt (${number}).png`;
+    const imageHTML = `<img src="${imagePath}" class="img-big-size" alt="Image ${number}">`;
+    return imageHTML;
+  }
+  function generate3ImageHTML(number) {
+    const imagePath = `./imgs/lab8/2/3/www.coursera.org_learn_react-basics_quiz_r83Ux_knowledge-check-data-flow_view-attempt (${number}).png`;
+    const imageHTML = `<img src="${imagePath}" class="img-big-size" alt="Image ${number}">`;
+    return imageHTML;
+  }
+
+function lab8_Task_1(){
+
+    let all1ImagesHTML = ''; // Initialize an empty string
+    let all2ImagesHTML = ''; // Initialize an empty string
+    let all3ImagesHTML = ''; // Initialize an empty string
+    for (let i = 1; i <= 14; i++) {
+      let imageHTML = generate1ImageHTML(i);
+      all1ImagesHTML += imageHTML;
+    }
+    for (let i = 1; i <= 9; i++) {
+        let imageHTML = generate2ImageHTML(i);
+        all2ImagesHTML += imageHTML;
+    }
+    for (let i = 10; i <= 16; i++) {
+        let imageHTML = generate2_1ImageHTML(i);
+        all2ImagesHTML += imageHTML;
+    }
+    for (let i = 1; i <= 16; i++) {
+        let imageHTML = generate3ImageHTML(i);
+        all3ImagesHTML += imageHTML;
+    }
+      
+
+    let contentDiv = 
+    `
+    <p>Тести</p>
+    <div class="flex-column-container">
+    <b>1 Тиждень</b>
+    ${all1ImagesHTML}
+    <img src="./imgs/lab8/2/1/www.coursera.org_learn_react-basics_quiz_8NOQO_self-review-creating-and-importing-components_view-attempt.png" class="img-big-size" alt="">
+    <b>2 Тиждень</b>
+    ${all2ImagesHTML}
+    <img src="./imgs/lab8/2/2/www.coursera.org_learn_react-basics_quiz_r83Ux_knowledge-check-data-flow_view-attempt.png" class="img-big-size" alt="">
+    <b>3 Тиждень</b>
+    ${all3ImagesHTML}
+    <img src="./imgs/lab8/2/3/www.coursera.org_learn_react-basics_quiz_r83Ux_knowledge-check-data-flow_view-attempt.png" class="img-big-size" alt="">
+    </div>
+    `
+    ;
+    document.getElementById("content").innerHTML = contentDiv;
+}
+
+function lab8_Conclusions(){
+    let contentDiv = 
+    `
+    <h4>Висновки</h4>
+    <h4>В ході виконання лабораторної роботи:</h4>
+    <ul>
+      <li>Пройдшов курс React basics від Meta</li>
+      <li>Придбав практичні навички роботи з бібліотекою React</li>      
+    </ul>
+    `
+    ;
+    document.getElementById("content").innerHTML = contentDiv;
+}
+
+function change_lab_work_9() {
+    let contentDiv = 
+    `
+        <!-- Тема, мета -->
+        <div class="step-block" onclick="lab9_Meta()">
+            <h3>Сертифікат, оцінка</h3>
+        </div>
+        <!-- Завдання №1 -->
+        <div class="step-block" onclick="lab9_Task_1()">
+            <h3>Тести</h3>
+        </div>
+        </div>
+        <!-- Висновки -->
+        <div class="step-block" onclick="lab9_Conclusions()">
+            <h3>Висновки</h3>
+        </div>
+    `;
+    document.getElementById("steps").innerHTML = contentDiv;
+    lab9_Meta();
+}
+
+function lab9_Meta() {
+    // Отримуємо доступ до елемента div за допомогою його id
+    var contentDiv = document.getElementById("content");
+
+    // Змінюємо текст у елементі div
+    contentDiv.innerHTML = `
+    <p>Сертифікат та оцінка</p>
+    <div>
+        <div class="flex-column-container">
+            <img src="./imgs/lab9/1/2-2.png" class="img-big-size" alt="">
+            Сертифікат
+            <img src="./imgs/lab9/1/2-1.png" class="img-big-size" alt="">
+            Оцінка
+        </div>
+    </div>
+    `;
+}
+
+function generate21ImageHTML(number) {
+    const imagePath = `./imgs/lab9/2/1/www.coursera.org_learn_restful-apis-with-node-and-express_quiz_nJjmo_middleware-practice-quiz_view-attempt (${number}).png`;
+    const imageHTML = `<img src="${imagePath}" class="img-big-size" alt="Image ${number}">`;
+    return imageHTML;
+  }
+  function generate22ImageHTML(number) {
+    const imagePath = `./imgs/lab9/2/2/www.coursera.org_learn_restful-apis-with-node-and-express_quiz_nJjmo_middleware-practice-quiz_view-attempt (${number}).png`;
+    const imageHTML = `<img src="${imagePath}" class="img-big-size" alt="Image ${number}">`;
+    return imageHTML;
+  }
+  function generate23ImageHTML(number) {
+    const imagePath = `./imgs/lab9/2/3/www.coursera.org_learn_restful-apis-with-node-and-express_quiz_nJjmo_middleware-practice-quiz_view-attempt (${number}).png`;
+    const imageHTML = `<img src="${imagePath}" class="img-big-size" alt="Image ${number}">`;
+    return imageHTML;
+  }
+
+function lab9_Task_1(){
+
+    let all1ImagesHTML = ''; // Initialize an empty string
+    let all2ImagesHTML = ''; // Initialize an empty string
+    let all3ImagesHTML = ''; // Initialize an empty string
+    for (let i = 1; i <= 8; i++) {
+      let imageHTML = generate21ImageHTML(i);
+      all1ImagesHTML += imageHTML;
+    }
+    for (let i = 1; i <= 16; i++) {
+        let imageHTML = generate22ImageHTML(i);
+        all2ImagesHTML += imageHTML;
+    }
+    for (let i = 10; i <= 10; i++) {
+        let imageHTML = generate23ImageHTML(i);
+        all2ImagesHTML += imageHTML;
+    }
+      
+
+    let contentDiv = 
+    `
+    <p>Тести</p>
+    <div class="flex-column-container">
+    <b>1 Тиждень</b>
+    ${all1ImagesHTML}
+    <img src="./imgs/lab9/2/1/www.coursera.org_learn_restful-apis-with-node-and-express_quiz_nJjmo_middleware-practice-quiz_view-attempt.png" class="img-big-size" alt="">
+    <b>2 Тиждень</b>
+    ${all2ImagesHTML}
+    <img src="./imgs/lab9/2/2/www.coursera.org_learn_restful-apis-with-node-and-express_quiz_nJjmo_middleware-practice-quiz_view-attempt.png" class="img-big-size" alt="">
+    <b>3 Тиждень</b>
+    ${all3ImagesHTML}
+    <img src="./imgs/lab9/2/3/www.coursera.org_learn_restful-apis-with-node-and-express_quiz_nJjmo_middleware-practice-quiz_view-attempt.png" class="img-big-size" alt="">
+    </div>
+    `
+    ;
+    document.getElementById("content").innerHTML = contentDiv;
+}
+
+function lab9_Conclusions(){
+    let contentDiv = 
+    `
+    <h4>Висновки</h4>
+    <h4>В ході виконання лабораторної роботи:</h4>
+    <ul>
+    <li>Пройшов курс Building RESTful APIs with Node.js and Express</li>
+    <li>Придбав практичні навички роботи з фреймворком Express</li>
+    <li>
+    Придбав практичні навички розробки з БД MongoDB
+    </li>
+    <li>
+    Реалізував  CRUD - операції
+    </li>
+    </ul>
+    `
+    ;
+    document.getElementById("content").innerHTML = contentDiv;
+}
